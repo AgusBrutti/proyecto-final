@@ -104,11 +104,12 @@
   left: 0px; }
 
 .form-inline .form-control {
-  display: inline-block; }
+  display: inline-block;
+  width: auto; }
 
 /*Fondo body*/
 body {
-  background: url("../imagenes/wave-2.png") no-repeat fixed;
+  background: url("../assets/imagenes/wave-2.png") no-repeat fixed;
   margin: 0px 0px;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   height: 100%; }
@@ -247,22 +248,22 @@ body {
   border-radius: 18px;
   color: white; }
 
-#dialog1 {
-  background: url("../imagenes/wave-3.png") no-repeat fixed;
+#dialog1, #dialog2 {
+  background: url("../assets/imagenes/wave-3.png") no-repeat fixed;
   background-color: white;
   width: 400px;
   height: 326px;
   margin: auto;
   overflow: hidden; }
-  #dialog1 .title-contact {
+  #dialog1 .title-contact, #dialog2 .title-contact {
     padding-top: 4%;
     padding-bottom: 2%;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.82);
     text-shadow: -4px -2px 12px black; }
-  #dialog1 .text-contact p {
+  #dialog1 .text-contact p, #dialog2 .text-contact p {
     padding-bottom: 4%; }
-  #dialog1 .form-control {
+  #dialog1 .form-control, #dialog2 .form-control {
     padding-bottom: 2%;
     display: block;
     width: 100%;
@@ -271,48 +272,13 @@ body {
     background-color: transparent;
     border: none;
     box-shadow: none; }
-    #dialog1 .form-control label {
+    #dialog1 .form-control label, #dialog2 .form-control label {
       display: inline-block;
       width: 22%;
       color: rgba(255, 255, 255, 0.82);
       text-shadow: -4px -2px 12px black; }
 
-#dialog2 {
-  background: url("../imagenes/wave-3.png") no-repeat fixed;
-  background-color: white;
-  width: 400px;
-  height: 326px;
-  margin: auto;
-  overflow: hidden; }
-  #dialog2 .title-contact {
-    padding-top: 4%;
-    padding-bottom: 2%;
-    font-size: 20px;
-    color: rgba(255, 255, 255, 0.82);
-    text-shadow: -4px -2px 12px black; }
-  #dialog2 .text-contact p {
-    padding-bottom: 4%; }
-  #dialog2 .form-control {
-    padding-bottom: 2%;
-    display: block;
-    width: 100%;
-    height: 34px;
-    padding: 0px;
-    background-color: transparent;
-    border: none;
-    box-shadow: none; }
-    #dialog2 .form-control label {
-      display: inline-block;
-      width: 22%;
-      color: rgba(255, 255, 255, 0.82);
-      text-shadow: -4px -2px 12px black; }
-
-#cancel1 {
-  width: 70px;
-  height: 26px;
-  text-align: center; }
-
-#cancel2 {
+#cancel1, #cancel2 {
   width: 70px;
   height: 26px;
   text-align: center; }
@@ -767,65 +733,34 @@ footer {
     text-decoration: none;
     align-items: center;
     color: #ffff; }
-  #dialog1 {
-    background: url("../imagenes/wave-3.png") no-repeat fixed;
+  #dialog1, #dialog2 {
+    background: url("../assets/imagenes/wave-3.png") no-repeat fixed;
     background-color: white;
     width: 500px;
     height: 500px;
     max-height: 700px;
     overflow: hidden;
     margin: auto; }
-    #dialog1 .text-contact p {
+    #dialog1 .text-contact p, #dialog2 .text-contact p {
       margin-top: 1%;
       font-size: 14px; }
-    #dialog1 .form-control {
+    #dialog1 .form-control, #dialog2 .form-control {
       margin-top: 20px; }
-      #dialog1 .form-control label {
+      #dialog1 .form-control label, #dialog2 .form-control label {
         display: inline-block;
         font-size: 18px; }
-      #dialog1 .form-control input {
+      #dialog1 .form-control input, #dialog2 .form-control input {
         margin-left: 0% !important;
         width: 66%;
         height: 32px; }
-    #dialog1 .form-consulta label {
+    #dialog1 .form-consulta label, #dialog2 .form-consulta label {
       display: inline-block;
       font-size: 18px; }
-    #dialog1 .forms-bottoms {
+    #dialog1 .forms-bottoms, #dialog2 .forms-bottoms {
       padding: 0%; }
-  #dialog2 {
-    background: url("../imagenes/wave-3.png") no-repeat fixed;
-    background-color: white;
-    width: 500px;
-    height: 500px;
-    max-height: 700px;
-    overflow: hidden;
-    margin: auto; }
-    #dialog2 .text-contact p {
-      margin-top: 1%;
-      font-size: 14px; }
-    #dialog2 .form-control {
-      margin-top: 20px; }
-      #dialog2 .form-control label {
-        display: inline-block;
-        font-size: 18px; }
-      #dialog2 .form-control input {
-        margin-left: 0% !important;
-        width: 66%;
-        height: 32px; }
-    #dialog2 .form-consulta label {
-      display: inline-block;
-      font-size: 18px; }
-    #dialog2 .forms-bottoms {
-      padding: 0%; }
-  #show1 {
+  #show1, #show2 {
     color: white; }
-  #cancel1 {
-    color: white;
-    height: 36px;
-    text-align: center; }
-  #show2 {
-    color: white; }
-  #cancel2 {
+  #cancel1, #cancel2 {
     color: white;
     height: 36px;
     text-align: center; }
@@ -1021,65 +956,34 @@ footer {
     text-decoration: none;
     align-items: center;
     color: #ffff; }
-  #dialog1 {
-    background: url("../imagenes/wave-3.png") no-repeat fixed;
+  #dialog1, #dialog2 {
+    background: url("../assets/imagenes/wave-3.png") no-repeat fixed;
     background-color: white;
     width: 500px;
     height: 500px;
     max-height: 700px;
     overflow: hidden;
     margin: auto; }
-    #dialog1 .text-contact p {
+    #dialog1 .text-contact p, #dialog2 .text-contact p {
       margin-top: 1%;
       font-size: 14px; }
-    #dialog1 .form-control {
+    #dialog1 .form-control, #dialog2 .form-control {
       margin-top: 20px; }
-      #dialog1 .form-control label {
+      #dialog1 .form-control label, #dialog2 .form-control label {
         display: inline-block;
         font-size: 18px; }
-      #dialog1 .form-control input {
+      #dialog1 .form-control input, #dialog2 .form-control input {
         margin-left: 0% !important;
         width: 66%;
         height: 32px; }
-    #dialog1 .form-consulta label {
+    #dialog1 .form-consulta label, #dialog2 .form-consulta label {
       display: inline-block;
       font-size: 18px; }
-    #dialog1 .forms-bottoms {
+    #dialog1 .forms-bottoms, #dialog2 .forms-bottoms {
       padding: 0%; }
-  #dialog2 {
-    background: url("../imagenes/wave-3.png") no-repeat fixed;
-    background-color: white;
-    width: 500px;
-    height: 500px;
-    max-height: 700px;
-    overflow: hidden;
-    margin: auto; }
-    #dialog2 .text-contact p {
-      margin-top: 1%;
-      font-size: 14px; }
-    #dialog2 .form-control {
-      margin-top: 20px; }
-      #dialog2 .form-control label {
-        display: inline-block;
-        font-size: 18px; }
-      #dialog2 .form-control input {
-        margin-left: 0% !important;
-        width: 66%;
-        height: 32px; }
-    #dialog2 .form-consulta label {
-      display: inline-block;
-      font-size: 18px; }
-    #dialog2 .forms-bottoms {
-      padding: 0%; }
-  #show1 {
+  #show1, #show2 {
     color: white; }
-  #cancel1 {
-    color: white;
-    height: 36px;
-    text-align: center; }
-  #show2 {
-    color: white; }
-  #cancel2 {
+  #cancel1, #cancel2 {
     color: white;
     height: 36px;
     text-align: center; }
@@ -1289,7 +1193,7 @@ footer {
   .copyright {
     padding: 0px; }
   body {
-    background: url("../imagenes/wave-2.png") no-repeat fixed;
+    background: url("../assets/imagenes/wave-2.png") no-repeat fixed;
     margin: 2px 0px;
     font-family: Roboto, "Helvetica Neue", sans-serif;
     height: 100%; }
@@ -1421,67 +1325,36 @@ footer {
     text-decoration: none;
     align-items: center;
     color: #ffff; }
-  #dialog1 {
-    background: url("../imagenes/wave-3.png") no-repeat fixed;
+  #dialog1, #dialog2 {
+    background: url("../assets/imagenes/wave-3.png") no-repeat fixed;
     background-color: white;
     width: 500px;
     height: 500px;
     max-height: 700px;
     overflow: hidden;
     margin: auto; }
-    #dialog1 .text-contact p {
+    #dialog1 .text-contact p, #dialog2 .text-contact p {
       margin-top: 1%;
       font-size: 14px; }
-    #dialog1 .form-control {
+    #dialog1 .form-control, #dialog2 .form-control {
       margin-top: 20px; }
-      #dialog1 .form-control label {
+      #dialog1 .form-control label, #dialog2 .form-control label {
         display: inline-block;
         font-size: 18px; }
-      #dialog1 .form-control input {
+      #dialog1 .form-control input, #dialog2 .form-control input {
         margin-left: 0% !important;
         width: 66%;
         height: 32px; }
-    #dialog1 .form-consulta label {
+    #dialog1 .form-consulta label, #dialog2 .form-consulta label {
       display: inline-block;
       font-size: 18px; }
-    #dialog1 .forms-bottoms {
+    #dialog1 .forms-bottoms, #dialog2 .forms-bottoms {
       padding: 0%; }
-  #dialog2 {
-    background: url("../imagenes/wave-3.png") no-repeat fixed;
-    background-color: white;
-    width: 500px;
-    height: 500px;
-    max-height: 700px;
-    overflow: hidden;
-    margin: auto; }
-    #dialog2 .text-contact p {
-      margin-top: 1%;
-      font-size: 14px; }
-    #dialog2 .form-control {
-      margin-top: 20px; }
-      #dialog2 .form-control label {
-        display: inline-block;
-        font-size: 18px; }
-      #dialog2 .form-control input {
-        margin-left: 0% !important;
-        width: 66%;
-        height: 32px; }
-    #dialog2 .form-consulta label {
-      display: inline-block;
-      font-size: 18px; }
-    #dialog2 .forms-bottoms {
-      padding: 0%; }
-  #show1 {
+  #show1, #show2 {
     color: white; }
-  #cancel1 {
+  #cancel1, #cancel2 {
     color: white;
-    height: 36px;
-    text-align: center; }
-  #show2 {
-    color: white; }
-  #cancel2 {
-    color: white;
-    height: 36px;
+    height: 40px;
     text-align: center; }
   .title-contact {
     font-size: 26px; }

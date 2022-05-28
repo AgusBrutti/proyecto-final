@@ -170,8 +170,8 @@
 			color: $color_10;
 		}
 	}
-	#dialog1 {
-		background: url("../imagenes/wave-3.png") no-repeat fixed;
+	#dialog1, #dialog2 {
+		background: url("../assets/imagenes/wave-3.png") no-repeat fixed;
 		background-color: $background-color_5;
 		width: 500px;
 		height: 500px;
@@ -206,54 +206,11 @@
 			padding: 0%;
 		}
 	}
-	#dialog2 {
-		background: url("../imagenes/wave-3.png") no-repeat fixed;
-		background-color: $background-color_5;
-		width: 500px;
-		height: 500px;
-		max-height: 700px;
-		overflow: hidden;
-		margin: auto;
-		.text-contact {
-			p {
-				margin-top: 1%;
-				font-size: 14px;
-			}
-		}
-		.form-control {
-			margin-top: 20px;
-			label {
-				display: inline-block;
-				font-size: 18px;
-			}
-			input {
-				margin-left: 0% !important;
-				width: 66%;
-				height: 32px;
-			}
-		}
-		.form-consulta {
-			label {
-				display: inline-block;
-				font-size: 18px;
-			}
-		}
-		.forms-bottoms {
-			padding: 0%;
-		}
-	}
-	#show1 {
+	
+	#show1, #show2 {
 		color: $color_6;
 	}
-	#cancel1 {
-		color: $color_6;
-		height: 36px;
-		text-align: center;
-	}
-	#show2 {
-		color: $color_6;
-	}
-	#cancel2 {
+	#cancel1, #cancel2 {
 		color: $color_6;
 		height: 36px;
 		text-align: center;
@@ -512,8 +469,8 @@
 			color: $color_10;
 		}
 	}
-	#dialog1 {
-		background: url("../imagenes/wave-3.png") no-repeat fixed;
+	#dialog1, #dialog2 {
+		background: url("../assets/imagenes/wave-3.png") no-repeat fixed;
 		background-color: $background-color_5;
 		width: 500px;
 		height: 500px;
@@ -548,54 +505,11 @@
 			padding: 0%;
 		}
 	}
-	#dialog2 {
-		background: url("../imagenes/wave-3.png") no-repeat fixed;
-		background-color: $background-color_5;
-		width: 500px;
-		height: 500px;
-		max-height: 700px;
-		overflow: hidden;
-		margin: auto;
-		.text-contact {
-			p {
-				margin-top: 1%;
-				font-size: 14px;
-			}
-		}
-		.form-control {
-			margin-top: 20px;
-			label {
-				display: inline-block;
-				font-size: 18px;
-			}
-			input {
-				margin-left: 0% !important;
-				width: 66%;
-				height: 32px;
-			}
-		}
-		.form-consulta {
-			label {
-				display: inline-block;
-				font-size: 18px;
-			}
-		}
-		.forms-bottoms {
-			padding: 0%;
-		}
-	}
-	#show1 {
+	
+	#show1, #show2 {
 		color: $color_6;
 	}
-	#cancel1 {
-		color: $color_6;
-		height: 36px;
-		text-align: center;
-	}
-	#show2 {
-		color: $color_6;
-	}
-	#cancel2 {
+	#cancel1, #cancel2 {
 		color: $color_6;
 		height: 36px;
 		text-align: center;
@@ -874,7 +788,7 @@
 		padding: 0px;
 	}
 	body {
-		background: url("../imagenes/wave-2.png") no-repeat fixed;
+		background: url("../assets/imagenes/wave-2.png") no-repeat fixed;
 		margin: 2px 0px;
 		font-family: $font-family_1;
 		height: 100%;
@@ -1033,8 +947,8 @@
 			color: $color_10;
 		}
 	}
-	#dialog1 {
-		background: url("../imagenes/wave-3.png") no-repeat fixed;
+	#dialog1, #dialog2 {
+		background: url("../assets/imagenes/wave-3.png") no-repeat fixed;
 		background-color: $background-color_5;
 		width: 500px;
 		height: 500px;
@@ -1069,56 +983,12 @@
 			padding: 0%;
 		}
 	}
-	#dialog2 {
-		background: url("../imagenes/wave-3.png") no-repeat fixed;
-		background-color: $background-color_5;
-		width: 500px;
-		height: 500px;
-		max-height: 700px;
-		overflow: hidden;
-		margin: auto;
-		.text-contact {
-			p {
-				margin-top: 1%;
-				font-size: 14px;
-			}
-		}
-		.form-control {
-			margin-top: 20px;
-			label {
-				display: inline-block;
-				font-size: 18px;
-			}
-			input {
-				margin-left: 0% !important;
-				width: 66%;
-				height: 32px;
-			}
-		}
-		.form-consulta {
-			label {
-				display: inline-block;
-				font-size: 18px;
-			}
-		}
-		.forms-bottoms {
-			padding: 0%;
-		}
-	}
-	#show1 {
+	#show1, #show2 {
 		color: $color_6;
 	}
-	#cancel1 {
+	#cancel1, #cancel2  {
 		color: $color_6;
-		height: 36px;
-		text-align: center;
-	}
-	#show2 {
-		color: $color_6;
-	}
-	#cancel2 {
-		color: $color_6;
-		height: 36px;
+		height: 40px;
 		text-align: center;
 	}
 	.title-contact {

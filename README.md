@@ -47,4 +47,8 @@ Agustina Brutti
         archivo main.scss.
 9º // Se arregló el formato de colores y sombras del navbar - menú.
 10º // Se agrega el meta author en todas las page.
+11º // Se arregla los media query en page blog, card comentarios. Se acomoda código de los pop up de la home, el scss. Se acomodan las carpetas
+        contenedoras de las imagenes.
+12º // Se edita la url del logo que ahora redirige a la home.
+
 ### End
