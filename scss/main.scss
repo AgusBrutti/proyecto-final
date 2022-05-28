@@ -752,6 +752,10 @@ $color in $redes {
 	flex-direction: column;
 }
 
+.carousel-control.left, .carousel-control.right, .carousel-inner {
+    height: 95%;
+}
+
 //MIXIN
 @mixin size ($alto, $ancho, $border-radius) {
 	height: $alto;
@@ -774,9 +778,8 @@ $color in $redes {
 
 .card {
 	@include size2(379px, 384px, 0px);
-	// height: 379px;
 	background: #808080;
-	border-radius: 10px;
+	border-radius: 0px;
 	overflow: hidden;
 	background: #000;
 	box-shadow: 0 70px 63px -60px #000;
@@ -785,8 +788,6 @@ $color in $redes {
 	align-items: center;
 	position: relative;
 	margin-bottom: 20px;
-	// width: 384px;
-	// margin-bottom: 0px;
 }
 
 .card0 {
@@ -807,6 +808,16 @@ $color in $redes {
 .card3 {
 	background: url("https://www.zippin.com.ar/themes/zippin_v2/assets/images/landing21/testimonies/poli.jpg") center center no-repeat;
 	background-size: 400px;
+}
+
+#myCarousel{
+	width: 350px;
+	margin: 0px auto;
+}
+.carousel-inner{
+	h2{
+		opacity: 1;
+	}
 }
 
 @import "media";

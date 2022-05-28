@@ -324,6 +324,10 @@
 			width: 74%;
 		}
 	}
+	#myCarousel{
+		width: 350px;
+		margin: 0px auto;
+	}
 }
 @media screen and (min-width: 1024px) {
 	.logo-footer {
@@ -832,6 +836,9 @@
 			}
 		}
 	}
+	#myCarousel{
+		width: 222px;
+	}
 }
 @media screen and (min-width: 1366px) {
 	.navbar-brand {
@@ -1327,7 +1334,7 @@
 		height: 379px;
 		width: 300px;
 		background: #808080;
-		border-radius: 10px;
+		border-radius: 0px;
 		transition: background 0.8s;
 		overflow: hidden;
 		background: #000;
@@ -1380,5 +1387,8 @@
 				opacity: 1;
 			}
 		}
+	}
+	#myCarousel{
+		width: 300px;
 	}
 }

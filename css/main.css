@@ -580,6 +580,9 @@ footer {
   margin: auto;
   flex-direction: column; }
 
+.carousel-control.left, .carousel-control.right, .carousel-inner {
+  height: 95%; }
+
 .border {
   height: 369px;
   width: 290px;
@@ -593,7 +596,7 @@ footer {
   width: 384px;
   margin-bottom: 0px;
   background: #808080;
-  border-radius: 10px;
+  border-radius: 0px;
   overflow: hidden;
   background: #000;
   box-shadow: 0 70px 63px -60px #000;
@@ -618,6 +621,13 @@ footer {
 .card3 {
   background: url("https://www.zippin.com.ar/themes/zippin_v2/assets/images/landing21/testimonies/poli.jpg") center center no-repeat;
   background-size: 400px; }
+
+#myCarousel {
+  width: 350px;
+  margin: 0px auto; }
+
+.carousel-inner h2 {
+  opacity: 1; }
 
 @media screen and (min-width: 768px) {
   .logo-footer {
@@ -856,7 +866,10 @@ footer {
     font-size: 12px;
     margin: 0px; }
   .section6 .container {
-    width: 74%; } }
+    width: 74%; }
+  #myCarousel {
+    width: 350px;
+    margin: 0px auto; } }
 
 @media screen and (min-width: 1024px) {
   .logo-footer {
@@ -1247,7 +1260,9 @@ footer {
       background: url("https://www.zippin.com.ar/themes/zippin_v2/assets/images/landing21/testimonies/poli.jpg") left center no-repeat;
       background-size: 600px; }
       .card3:hover h2 {
-        opacity: 1; } }
+        opacity: 1; }
+  #myCarousel {
+    width: 222px; } }
 
 @media screen and (min-width: 1366px) {
   .navbar-brand {
@@ -1629,7 +1644,7 @@ footer {
     height: 379px;
     width: 300px;
     background: #808080;
-    border-radius: 10px;
+    border-radius: 0px;
     transition: background 0.8s;
     overflow: hidden;
     background: #000;
@@ -1669,4 +1684,6 @@ footer {
       background: url("https://www.zippin.com.ar/themes/zippin_v2/assets/images/landing21/testimonies/poli.jpg") left center no-repeat;
       background-size: 600px; }
       .card3:hover h2 {
-        opacity: 1; } }
+        opacity: 1; }
+  #myCarousel {
+    width: 300px; } }
